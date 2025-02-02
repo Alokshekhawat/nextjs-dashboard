@@ -137,7 +137,7 @@ async function seedRevenue(client) {
 
     console.log(`Created "revenue" table`);
 
-    // Insert data into the "revenue" table
+    // Insert data into the "revenue" tableS
     const insertedRevenue = await Promise.all(
       revenue.map(
         (rev) => client.sql`
